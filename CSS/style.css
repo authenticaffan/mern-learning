@@ -207,3 +207,98 @@ body{
         background-color: red;
      }
  } */
+/* .logo a h1{
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    color: yellow;
+}
+.logo, .title{
+    position: relative;
+    left: 20px;
+}
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.div1{
+    display: inline-block;
+    height: 500px;
+    width: 600px;
+    margin-left: 20px;
+}
+.div1 img{
+    float: left;
+}
+.div1 h5,p{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.div2{
+    display: inline-block;
+    height: 500px;
+    width: 600px;
+    margin-left: 20px;
+}
+.div2 img{
+    float: left;
+}
+.div2 h5,p{
+    position: relative;
+    top: 10px;
+    left: 20px;
+} */
+
+/* .container{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid orange;
+} 
+div #red{
+    background-color: red;
+}
+div #yellow{
+    background-color: yellow;
+}
+div #blue{
+    background-color: blue;
+}
+div #grey{
+    background-color: grey;
+}
+div #green{
+    background-color: green;
+}
+.container > *{
+    flex-basis: 100px;
+} */
+
+.pricetable{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:50px;
+    text-align: center;
+    align-items: center;
+}
+.div1,.div2,.div3{
+    background-color: rgb(245, 243, 243);
+    padding: 30px;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+ul li{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+button{
+    padding: 10px;
+    background-color: orange;
+    border: 1px solid white;
+    border-radius: 10px;
+}
