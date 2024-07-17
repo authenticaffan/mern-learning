@@ -1,0 +1,209 @@
+/* body{
+    background-color: antiquewhite;
+ }
+h1{
+    color: whitesmoke;
+    background-color: darkseagreen;
+}
+h2{
+    color: #faf8f1;
+    background-color: #c58940;
+} */
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 */
+
+/* .test{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* .container div{
+    height: 200px;
+    width: 200px;
+}
+#first{
+    padding: 20px;
+    border: 10px solid black;
+    background-color: green;
+}
+#first p{
+    margin: 0;
+}
+#second{
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    background-color: yellow;
+    margin-left: 19vw;
+}
+#third{
+    border: 10px solid black;
+    background-color: red;
+    margin-left: 3vw;
+} */
+
+/* .poster{
+    height: 400px;
+    width: 400px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+.poster img{
+    width: 100%;
+
+}
+body{
+    background-color: black;
+}
+.poster,h1,p{
+    text-align: center;
+} */
+
+/* h1,h2{
+    color: blue;
+} */
+
+/* ul > li{
+    color: green;
+}
+.box ul li{
+    background-color: yellow;
+}  */
+/* ul li#item{
+    color: red;
+} */
+ /* .box #list li#item{
+    color: green;
+ } */
+/* .blue-box{
+    background-color: blue;
+    height: 300px;
+    width: 500px;
+    margin-top: 200px;
+    margin-left: 200px;
+    position: relative;
+}
+.red-circle{
+    background-color: red;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    top: 150px;
+    left: 250px;
+    position: absolute;
+} */
+
+/* .flag{
+    height: 300px;
+    width: 500px;
+    background-color: red;
+}
+.flag > p{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.flag #blue div p{
+    text-align: center;
+    align-content: center;
+}
+.flag #blue{
+    background-color: blue;
+    height: 120px;
+}
+.flag #blue div p{
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+}
+.flag #blue div{
+    background: white;
+    height:80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 200px;
+    
+} */
+
+/* .red{
+    background-color: red;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+.green{
+    background-color: green;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+.blue{
+    background-color: blue;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+} */
+ /* .div1{
+    display: inline;
+    float: inline-start;
+    height: fit-content;
+    width: 500px;
+    background-color: lightseagreen;
+ }
+ .div1 img{
+    float: left;
+ }
+
+ .div2{
+    display: inline;
+    float: inline-end;
+    height: fit-content;
+    width: 500px;
+    background-color: orange;
+ }
+ .div2 img{
+    float: left;
+ }
+ footer{
+    background-color: purple;
+    width: 100%;
+    clear: both;
+    text-align: center;
+ } */
+
+
+ /* @media (min-width: 319px) and (max-width:480px){
+    .box{
+        height: 200px;
+        width: 200px;
+        background-color: red;
+     }
+ }
+ @media (min-width: 481px) and (max-width:1200px){
+    .box{
+        height: 600px;
+        width: 600px;
+        background-color: red;
+     }
+ }
+ @media (min-width: 1201px) and (max-width:1600px){
+    .box{
+        height: 800px;
+        width: 800px;
+        background-color: red;
+     }
+ }
+ @media (min-width: 1600px){
+    .box{
+        height: 1000px;
+        width: 1000px;
+        background-color: red;
+     }
+ } */
