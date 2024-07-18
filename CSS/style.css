@@ -390,23 +390,10 @@ button{
     background-color: black;
 } */
 
+/* .card-container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+} */
 
-
-
-
-
-
-
-
-
-
-
-/* Remove border bottom from last item & from second last if its odd */
-.item:last-child, .item:nth-last-child(2):nth-child(odd) {
-    border-bottom: none;
-  }
-  
-  /* Add right border to every second item */
-  .item:nth-child(odd) {
-    border-right: 1px solid black;
-  }
