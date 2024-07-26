@@ -1,0 +1,16 @@
+body{
+    background-color: #11c591;
+}
+.headings{
+    text-align: center;
+    margin-top: 150px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.dice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 120px;
+    text-align: center;
+}
