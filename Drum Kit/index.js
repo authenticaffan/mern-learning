@@ -1,64 +1,56 @@
 var noOfDrums = document.querySelectorAll(".drum").length;
 for (var i = 0; i < noOfDrums; i++){
-    
+    document.querySelectorAll(".drum")[i].addEventListener("click",function (){
+        
+    var btnInnerHTML = this.innerHTML;
+    makeSound(btnInnerHTML);
+
+    });
 }
-document.querySelectorAll(".drum")[0].addEventListener("click",function w(){
-    var audio = new Audio("sounds/crash.mp3");
-    audio.play();
-});
-document.querySelectorAll(".drum")[1].addEventListener("click",function a(){
-    var audio = new Audio("sounds/kick-bass.mp3");
-    audio.play();
-});
-document.querySelectorAll(".drum")[2].addEventListener("click",function s(){
-    var audio = new Audio("sounds/snare.mp3");
-    audio.play();
-});
-document.querySelectorAll(".drum")[3].addEventListener("click",function d(){
-    var audio = new Audio("sounds/tom-1.mp3");
-    audio.play();
-});
-document.querySelectorAll(".drum")[4].addEventListener("click",function j(){
-    var audio = new Audio("sounds/tom-2.mp3");
-    audio.play();
-});
-document.querySelectorAll(".drum")[5].addEventListener("click",function k(){
-    var audio = new Audio("sounds/tom-3.mp3");
-    audio.play();
-});
-document.querySelectorAll(".drum")[6].addEventListener("click",function l(){
-    var audio = new Audio("sounds/tom-4.mp3");
-    audio.play();
+
+document.addEventListener("keydown",function(event){
+    makeSound(event.key);
 });
 
-document.onkeydown = function(event) {
-    var keypressed = event.key;
-    if (keypressed === "w") {
-    var crash = new Audio("sounds/crash.mp3");
-    crash.play();
-    }
-    if (keypressed === "a") {
+function makeSound(key){
+    switch(key){
+
+    case "w":
+        var audio = new Audio("sounds/crash.mp3");
+        audio.play();
+        break;
+    
+    case "a":
         var audio = new Audio("sounds/kick-bass.mp3");
         audio.play();
-    }
-    if (keypressed === "s"){
+        break;
+
+    case "s":
         var audio = new Audio("sounds/snare.mp3");
         audio.play();
-    }
-    if (keypressed === "d"){
+        break;
+        
+    case "d":
         var audio = new Audio("sounds/tom-1.mp3");
         audio.play();
-    }
-    if (keypressed === "j"){
+        break;
+        
+    case "j":
         var audio = new Audio("sounds/tom-2.mp3");
         audio.play();
-    } 
-    if (keypressed === "k"){
+        break;
+        
+    case "k":
         var audio = new Audio("sounds/tom-3.mp3");
         audio.play();
-    } 
-    if (keypressed === "l"){
+        break;
+        
+    case "l":
         var audio = new Audio("sounds/tom-4.mp3");
         audio.play();
-    }      
+        break;
+        
+    default:
+        console.log(btnInnerHTML);
+}
 }
